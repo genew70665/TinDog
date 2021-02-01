@@ -2,6 +2,10 @@
 #title{
   background-color:powderblue;
 }
+h2{
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 3rem;
+}
 #meetdog{
   font-family:Montserrat;
   size:3rem;
@@ -9,4 +13,37 @@
 }
 .container-fluid{
   padding: 3% 15%;
+}
+#features{
+  padding 7% 15%;
+}
+.feature-box {
+  text-align: center;
+  padding 4.5%;
+}
+.icon  {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials {
+  color:#ffffff;
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ff4c68;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius:40% 40%;
+}
+#press {
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%
+  margine: 20px 20px 50px;
 }
